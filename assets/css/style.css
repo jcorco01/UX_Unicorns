@@ -328,13 +328,15 @@ h1, h2, h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  padding: 15px 0 15px 70px;
   font-family: "Athletics", sans-serif;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 500;
   color: #2d405f;
   white-space: nowrap;
   transition: 0.3s;
+  transform: translateY(-3
+px);
 }
 
 .navbar a i,
@@ -433,6 +435,8 @@ h1, h2, h3 {
     left: -100%;
   }
 }
+
+
 
 
 /**
@@ -557,46 +561,80 @@ h1, h2, h3 {
 }
 
 #hero .container {
-  padding-top: 70px;
+  padding-top: 40px;
 }
 
 #hero h1 {
   margin: 0;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 56px;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 76px;
   color: #141d2b;
   width: 60%;
   color: #2d405f;
+  padding-bottom: 20px;
 }
 
 #hero h2 {
   color: #466393;
   margin: 15px 0 0 0;
   font-size: 24px;
+  font-weight: 400;
   color: #2d405f;
+}
+
+
+.v-btn {
+  background-color: rgb(189, 135, 222);
+  border-radius: 35px;
+  height: 55px;
+  width: 260px;
+  margin-top: 50px;
+  
 }
 
 #hero .btn-get-started {
   font-family: "Athletics", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 24px;
   letter-spacing: 1px;
   display: block;
   padding: 8px 32px 10px 32px;
   margin-top: 25px;
-  border-radius: 5px;
+  border-radius: 35px;
   transition: 0.5s;
   color: #fff;
-  background: #3b4ef8;
+  background: rgb(0, 136, 247);
+
+  box-shadow: inset 0 0 0 0 #0070D3;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+
+  transition: transform 150ms ease-in;
+  transform: translate(-10px, -35px);
+  
 }
 
 #hero .btn-get-started:hover {
   background: rgb(0, 140, 255);
+
+  box-shadow: inset 0 100px 0 0 #0070D3;
+
+  transform: translate(0px, -24px);
+  
+
+
+}
+
+#hero .btn-get-started img {
+  padding-right: 10px;
+  transform: translateY(-3px);
 }
 
 #hero .hero-img {
-  max-width: 60%;
+  max-width: 80
+%;
   margin-top: 40px;
 }
 
@@ -608,7 +646,7 @@ h1, h2, h3 {
   }
 
   #hero h2 {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 24px;
   }
 
@@ -668,11 +706,11 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: #466393;
+  background: rgb(245, 238, 250);
   background-size: cover;
   padding: 60px 0;
   position: relative;
-  color: #fff;
+  color: #2d405f;
 }
 
 .about .content {
@@ -682,7 +720,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 34px;
-  color: #fff;
+  color: #2d405f;
   margin-bottom: 30px;
 }
 
@@ -694,7 +732,7 @@ section {
   display: inline-block;
   background: rgba(255, 255, 255, 0.05);
   padding: 6px 30px 8px 30px;
-  color: #fff;
+  color: #2d405f;
   border-radius: 50px;
   transition: 0.3s;
 }
@@ -713,7 +751,7 @@ section {
 
 .about .icon-boxes .icon-box i {
   font-size: 40px;
-  color: #b6bdfc;
+  color: rgb(249, 136, 178);
   margin-bottom: 10px;
 }
 
@@ -846,13 +884,13 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services {
-  background: #2d405f;
+  background: rgb(245, 238, 250);
   padding-bottom: 80px;
 }
 
 .services .section-title h2,
 .services .section-title p {
-  color: #fff;
+  color: #2d405f;
 }
 
 .services .section-title h2::after {
