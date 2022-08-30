@@ -1057,14 +1057,14 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  color: black;
+  color: darkslategray;
   font-size: 14px;
   background: white;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 #footer .footer-top {
-  padding: 60px 0 30px 0;
+  padding: 150px 0 30px 0;
   background: #fff;
 }
 
@@ -1073,7 +1073,7 @@ section {
 }
 
 #footer .footer-top .footer-contact h4 {
-  font-size: 22px;
+  font-size: 18px;
   margin: 0 0 30px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
@@ -1082,15 +1082,15 @@ section {
 }
 
 #footer .footer-top .footer-contact p {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 24px;
-  margin-bottom: 0;
+  margin-bottom: 10;
   font-family: "Athletics", sans-serif;
-  color: #d3d3d3;
+  color: #3a3b3c;
 }
 
 #footer .footer-top h4 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   color: #2d405f;
   position: relative;
@@ -1118,13 +1118,13 @@ section {
   }
 
 #footer .footer-top .footer-links ul li {
-  padding: 10px 0;
+  padding: 15px 0;
   display:flex;
   align-items: right;
 }
 
 #footer .footer-top .footer-links ul li:first-child {
-  padding-top: 0;
+  padding-top: 15%;
 }
 
 #footer .footer-top .footer-links ul a {
@@ -1145,31 +1145,7 @@ section {
   border: 1px solid #9da7fc;
 }
 
-#footer .footer-newsletter form input[type=email] {
-  border: 0;
-  padding: 4px 8px;
-  width: calc(100% - 100px);
-}
 
-#footer .footer-newsletter form input[type=submit] {
-  position: absolute;
-  top: -1px;
-  right: -2px;
-  bottom: -1px;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px;
-  background:  rgb(0, 140, 255);
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 0 5px 5px 0;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-#footer .footer-newsletter form input[type=submit]:hover {
-  background: white;
-}
 
 #footer .credits {
   padding-top: 5px;
@@ -1177,25 +1153,9 @@ section {
   color: #444444;
 }
 
-#footer .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: white;
-  color: black;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 5px;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-  align-items: right;
 
-}
 
 #footer .social-links a:hover {
-  background: ;
   color: gray;
   text-decoration: none;
 }
@@ -1204,8 +1164,23 @@ section {
 margin-top: 10%;
 padding: 0%}
 
-.footer_image {
-  margin: 150px;
-  width:10%
+.footer-logo{
+  columns: 1;
+  width: 150px;
 
 }
+.socials{
+  margin-top: 10%;
+}
+
+.instagram{
+  margin-right: 5%;
+}
+.twitter{
+  margin-right:5%;
+}
+
+.contact_us{
+  padding-top: 50%;
+}
+
