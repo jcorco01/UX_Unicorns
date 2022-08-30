@@ -1082,11 +1082,11 @@ section {
 }
 
 #footer .footer-top .footer-contact p {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Athletics", sans-serif;
-  color: #4e6fa4;
+  color: #d3d3d3;
 }
 
 #footer .footer-top h4 {
@@ -1095,6 +1095,8 @@ section {
   color: #2d405f;
   position: relative;
   padding-bottom: 12px;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
 #footer .footer-top .footer-links {
@@ -1109,8 +1111,9 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #6c7afa;
-  font-size: 18px;
+  color: #d3d3d3;
+  font-size: 12px;
+  ;
   line-height: 1;
   }
 
@@ -1125,7 +1128,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: black;
+  color: darkgray;
   transition: 0.3s;
   display: inline-block;
   align-items: inherit;
@@ -1192,7 +1195,17 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #3b4ef8;
-  color: #fff;
+  background: ;
+  color: gray;
   text-decoration: none;
+}
+
+.google{
+margin-top: 10%;
+padding: 0%}
+
+.footer_image {
+  margin: 150px;
+  width:10%
+
 }
