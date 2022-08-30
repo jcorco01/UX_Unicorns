@@ -1142,6 +1142,10 @@ section {
   max-height: ;
 }
 
+.watch .section {
+  height: 200px;
+}
+
 .watch .content h3 {
   font-weight: 500;
   font-family: Athletics, sans-serif;
@@ -1220,6 +1224,20 @@ section {
   background: rgba(255, 255, 255, 0.1);
 }
 
+#watch {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 650px;
+}
+
+.top-watch img {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: -1;
+  transform: translate(85px, -80px); 
+}
+
 
 
 /*--------------------------------------------------------------
@@ -1228,6 +1246,7 @@ section {
 .services {
   background: #E5F3FF;
   padding-bottom: 80px;
+  padding-top: 0px;
 }
 
 .services .section-title h2,
@@ -1288,14 +1307,9 @@ section {
   margin-bottom: 0;
 }
 
-.top-watch {
-  height: 450px;
-}
 
-.top-watch img {
-  object-fit: contain;
-  transform: translate(85px, -135px); 
-}
+
+
 
 
 @media (max-width: 768px) {
