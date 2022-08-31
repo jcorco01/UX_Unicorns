@@ -655,8 +655,17 @@ px);
 
 #hero .hero-img {
   max-width: 70%;
-  margin-top: 40px;
+  margin-top: 0;
+
 }
+
+/* 
+@media (max-width: 1080px) {
+  #hero {
+
+  }
+}
+*/
 
 @media (max-width: 992px) {
   #hero h1 {
@@ -757,11 +766,11 @@ span {
   padding-top: 6rem;
 }
 
-@media only screen and (min-width: 1280px)
+@media only screen and (min-width: 1280px){
 .organisms-bigtypeheadersection-container {
     padding-top: 10rem;
 }
-
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -1189,9 +1198,7 @@ section {
 .watch {
   background: #E5F3FF;
 }
-.watch img {
-  max-height: ;
-}
+
 
 .watch .section {
   height: 200px;
