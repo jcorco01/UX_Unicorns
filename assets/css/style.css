@@ -586,7 +586,7 @@ px);
 #hero h1 {
   margin: 0;
   font-size: 95px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 90px;
   color: #141d2b;
   width: 60%;
@@ -594,11 +594,12 @@ px);
   padding-bottom: 20px;
 }
 
-#hero h2 {
+
+#hero .container h2 {
   color: #466393;
   margin: 15px 0 0 0;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 100;
   color: #2d405f;
 }
 
@@ -659,9 +660,11 @@ px);
 
 @media (max-width: 992px) {
   #hero h1 {
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 65px;
+    line-height: 68px;
     width: 100%;
+    font-weight: 700;
+    padding-top: 20px;
   }
 
   #hero h2 {
@@ -818,7 +821,7 @@ section {
 .about  h2 {
   font-weight: 700;
   font-family: Athletics, sans-serif;
-  font-size: 40px;
+  font-size: 65px;
   color: #2d405f;
   margin-left: 45px;
   padding-top: 45px;
@@ -925,10 +928,35 @@ section {
   }
 }
 
+
 @media (max-width: 768px) {
   .about {
     text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 0px;
+    padding-right: 0px;
   }
+
+  .keep-tabs img {
+    transform: translateX(5px);
+  }
+
+  .about .content-right p {
+    margin-left: 0px;
+    
+  }
+
+  .about .content h2 {
+    margin-left: 0px;
+    line-height: 68px;
+  }
+
+  .about .v-btn {
+    margin: 60px 80px;
+
+  }
+
 }
 
 
@@ -1075,6 +1103,29 @@ section {
   #features {
     margin-left: 5%;
     margin-right: 5%;
+    height: 4250px;
+  }
+
+
+
+  .right-2 {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 300px;
+    
+    
+  }
+
+  .left-3 {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 750px;
+  }
+
+  .right-4 {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 1250px;
   }
 }
 
@@ -1238,8 +1289,15 @@ section {
   transform: translate(85px, -80px); 
 }
 
+@media (max-width: 768px) {
+  .watch-title h3 {
+    margin-top: 250px;
+  }
 
-
+  #watch {
+    height: 1000px;
+  }
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -1507,5 +1565,16 @@ padding: 0%}
 .footer-logo {
   width: 250px;
   padding-top: 80px;
+}
+
+@media (max-width: 768px) {
+  #footer {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #footer .footer-top {
+    padding-top: 80px;
+  }
 }
 
